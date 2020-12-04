@@ -1,0 +1,45 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "test",
+			"group": "test",
+			"problemMatcher": [],
+			"label": "npm: test",
+			"detail": "jest"
+		},
+		{
+			"type": "npm",
+			"script": "eslint",
+			"group": "none",
+			"problemMatcher": [],
+			"label": "npm: eslint",
+			"detail": "eslint"
+		},
+		{
+			"type": "npm",
+			"script": "build",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build",
+			"detail": "build"
+		},
+		{
+			"type": "npm",
+			"script": "clean",
+			"group": "none",
+			"problemMatcher": [],
+			"label": "npm: clean",
+			"detail": "clean"
+		},
+		{
+			"type": "npm",
+			"script": "dev",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: dev",
+			"detail": "dev"
+		},
+	]
+}
