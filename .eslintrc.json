@@ -15,9 +15,12 @@
   "rules": {
     "no-multiple-empty-lines":"error",
     "no-multi-spaces":"error",
-    "object-curly-spacing":"error",
     "semi":"error",
     "quotes":"error",
-    "space-infix-ops":"error"
+    "space-infix-ops":"error",
+    "semi-spacing": "error",
+    "space-before-function-paren":"error",
+    "space-before-blocks":"error",
+    "arrow-spacing":"error"
   }
 }

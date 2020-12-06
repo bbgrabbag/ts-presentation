@@ -3,6 +3,5 @@
     "extends": "./tsconfig.json",
     "compilerOptions": {
         "sourceMap": true,
-        "watch": true
     }
 }

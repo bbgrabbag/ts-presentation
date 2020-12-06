@@ -3,6 +3,14 @@
 	"tasks": [
 		{
 			"type": "npm",
+			"script": "playground",
+			"group": "none",
+			"problemMatcher": [],
+			"label": "npm: playground",
+			"detail": "jest",
+		},
+		{
+			"type": "npm",
 			"script": "test",
 			"group": "test",
 			"problemMatcher": [],
@@ -32,14 +40,6 @@
 			"problemMatcher": [],
 			"label": "npm: clean",
 			"detail": "clean"
-		},
-		{
-			"type": "npm",
-			"script": "dev",
-			"group": "build",
-			"problemMatcher": [],
-			"label": "npm: dev",
-			"detail": "dev"
 		},
 	]
 }
