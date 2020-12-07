@@ -5,7 +5,7 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Run Playground",
+      "name": "debug-playground",
       "request": "launch",
       "runtimeArgs": [
         "run-script",
@@ -19,7 +19,7 @@
     },
     {
       "type": "node",
-      "name": "Run Jest Tests",
+      "name": "vs-code-jest-tests",
       "request": "launch",
       "args": ["--runInBand"],
       "cwd": "${workspaceFolder}",
