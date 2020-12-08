@@ -1,7 +1,9 @@
 /**
- * @file - `npm run playground` command executes contents of this file. Not included in main build script
+ * @file - `npm run playground` command executes contents of this file. Not included in main build script.
  */
 
-const welcome = (message: string) => console.log(message);
+import * as ts from "typescript";
 
-welcome("Hello world!");
+const hello = (message: string): void => console.log(message);
+
+hello(`Welcome to Typescript Playground. Currently using version ${ts.version}`);

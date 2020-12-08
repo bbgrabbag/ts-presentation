@@ -29,6 +29,9 @@ describe("Map", () => {
   it("Should output doubled numbers", () => {
     expect(map([1, 2, 3], (v) => v * 2)).toEqual([2, 4, 6]);
   });
+  it("Should output stringified numbers", () => {
+    expect(map([1, 2, 3], (v) => "" + v)).toEqual(["1","2","3"]);
+  });
 });
 
 describe("Reduce", () => {
