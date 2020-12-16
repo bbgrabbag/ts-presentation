@@ -1,7 +1,11 @@
 export const sum = (x: number, y: number): number => x + y;
 
-export const addProperty = <O, V>(obj:O, key: string, value:V): O & {[P in typeof key]: V} => {
-  return {...obj, [key]: value};
+export const addProperty = <O, V>(
+  obj: O,
+  key: string,
+  value: V
+): O & { [P in typeof key]: V } => {
+  return { ...obj, [key]: value };
 };
 
 export const keys = <O>(obj: O): (keyof O)[] => {
@@ -37,7 +41,7 @@ export function reduce<V, O>(
   cb: (t: O, v: V) => O,
   initialValue?: O
 ): O;
-export function reduce<V, O> (
+export function reduce<V, O>(
   arr: V[],
   cb: (t: O | V, v: V) => V | O,
   initialValue?: V | O

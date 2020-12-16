@@ -8,8 +8,8 @@ describe("Sum", () => {
 
 describe("Add Property", () => {
   it("Should add foo:bar key/value pair", () => {
-    const withFooBar = addProperty({key: "value"}, "foo", "bar");
-    expect(withFooBar).toEqual({key: "value", foo:"bar"});
+    const withFooBar = addProperty({ key: "value" }, "foo", "bar");
+    expect(withFooBar).toEqual({ key: "value", foo: "bar" });
   });
 });
 

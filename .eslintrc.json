@@ -19,7 +19,6 @@
     "quotes":"error",
     "space-infix-ops":"error",
     "semi-spacing": "error",
-    "space-before-function-paren":"error",
     "space-before-blocks":"error",
     "arrow-spacing":"error"
   }
